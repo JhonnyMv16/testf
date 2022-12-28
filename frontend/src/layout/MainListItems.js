@@ -121,10 +121,10 @@ const MainListItems = (props) => {
         primary={i18n.t("mainDrawer.listItems.quickAnswers")}
         icon={<QuestionAnswerOutlinedIcon />}
       />
-      {/* <ListItemLink
+      <ListItemLink
               to="/ZDGChatbot"
               primary={i18n.t("mainDrawer.listItems.ZDGChatbot")}
-        icon={<ChatIcon />}
+        icon={<ChatIcon />
       /> */}
       <ListItemLink
               to="/ZDGAgendamento"
@@ -185,7 +185,7 @@ const MainListItems = (props) => {
             <ListSubheader inset>
               {i18n.t("mainDrawer.listItems.administration")}
             </ListSubheader>
-            {/* <ListItemLink
+             <ListItemLink
               to="/connections"
               primary={i18n.t("mainDrawer.listItems.connections")}
               icon={
@@ -193,7 +193,7 @@ const MainListItems = (props) => {
                   <SyncAltIcon />
                 </Badge>
               }
-            /> */}
+            />
             <ListItemLink
               to="/users"
               primary={i18n.t("mainDrawer.listItems.users")}
